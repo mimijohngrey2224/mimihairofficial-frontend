@@ -1,0 +1,207 @@
+{
+    "featured": [
+        {
+            "id": 1,
+            "name": "Natural Color Bonestraight",
+            "video": "/vietnambonestraight.mp4",
+            "price": "please contact for us price",
+            "featured": true,
+            "trending": false
+        },
+        {
+            "id": 2,
+            "name": "Burgundy Bonestraight",
+            "video": "/vietnamcolor.mp4",
+            "price": "please contact us for price",
+            "featured": true,
+            "trending": false
+            
+        },
+        {
+            "id": 3,
+            "name": "Dancing Curl",
+            "video": "/vietnam.mp4",
+            "price": "please contact us for price",
+            "featured": true,
+            "trending": false 
+    
+        },
+        {
+            "id": 4,
+            "name": "Egg Curls, Natural Color",
+            "video": "/vietnam1.mp4",
+            "price": "please contact us for price",
+            "featured": true,
+            "trending": false
+        },
+        {
+            "id": 5,
+            "name": "Pixie Curl",
+            "video": "/doozy1.mp4",
+            "price": "please contact us for price",
+            "featured": false,
+            "trending": true  
+        },
+        {
+            "id": 6,
+            "name": "Straight Wavy Color",
+            "video": "/doozy2.mp4",
+            "price": "please contact us for price",
+            "featured": false,
+            "trending": true 
+        },
+        {
+            "id": 7,
+            "name": "WAvy Color",
+            "video": "/doozy3.mp4",
+            "price": "please contact us for price",
+            "featured": false,
+            "trending": true 
+        },
+        {
+            "id": 8,
+            "name": "Full Pixie",
+            "video": "/doozy4.mp4",
+            "price": "please contact us for price",
+            "featured": false,
+            "trending": true 
+        }
+    ],
+
+    "wigs": [
+        {
+            "id": 1,
+            "name": "pixie",
+            "img": "/logowavy.jpg",
+            "price": 50000
+        },
+        {
+            "id": 2,
+            "name": "waveB",
+            "img": "/waveB.jpg",
+            "price": 60000
+        },
+        {
+            "id": 3,
+            "name": "beautyhair",
+            "img": "/wavyNn.jpg",
+            "price": 50000
+        },
+        {
+            "id": 4,
+            "name": "naturalWavy",
+            "img": "/wavyN.jpg",
+            "price": 66000
+        },
+        {
+            "id": 5,
+            "name": "PixeiCurly",
+            "img": "/pixie culy.jpg",
+            "price": 80000
+        },
+        {
+            "id": 6,
+            "name": "Double",
+            "img": "/longwave.jpg",
+            "price": 60000
+        },
+        {
+            "id": 7,
+            "name": "Super",
+            "img": "/wavycolor3.jpg",
+            "price": 50000
+        },
+        {
+            "id": 8,
+            "name": "Superwig(SDD)",
+            "img": "/wavenew.jpg",
+            "price": 80000
+        },
+        {
+            "id": 9,
+            "name": "blondewavy(SDD)",
+            "img": "/wavycolor1.jpg",
+            "price": 90000
+        },
+        {
+            "id": 10,
+            "name": "Pixie Curl(SDD)",
+            "img": "/pixieSDD.jpg",
+            "price": 60000
+        },
+        {
+            "id": 11,
+            "name": "italain pixie(SDD)",
+            "img": "/pixeee.jpg",
+            "price": 70000
+        },
+        {
+            "id": 12,
+            "name": "italain wavy blonde(SDD)",
+            "img": "/wavycolor2.jpg",
+            "price": 80000
+        }
+    ],
+
+    "shopall": [
+
+        {
+            "id": 1,
+            "name": "wig bag",
+            "img": "http://localhost:3000/wigbags3.jpeg",
+            "price": 7500
+        },
+        {
+            "id": 2,
+            "name": "brush",
+            "img": "http://localhost:3000/wigbrush.jpeg",
+            "price": 3500
+        },
+        {
+            "id": 3,
+            "name": "hair oil",
+            "img": "http://localhost:3000/hairoil.jpeg",
+            "price": 5000
+        },
+        {
+            "id": 4,
+            "name": "nails",
+            "img": "http://localhost:3000/nails.jpeg",
+            "price": 4500
+        },
+        {
+            "id": 5,
+            "name": "eye lashes",
+            "img": "http://localhost:3000/lasches-removebg-preview.png",
+            "price": 7500
+        },
+          {
+            "id": 6,
+            "name": "lipgloss",
+            "img": "http://localhost:3000/lipgloss-removebg-preview.png",
+            "price": 1500
+        },
+        
+         {
+            "id": 7,
+            "name": "wig cap",
+            "img": "http://localhost:3000/wigcap.jpeg",
+            "price": 1000
+        },
+         {
+            "id": 8,
+            "name": "hair treatment",
+            "img": "http://localhost:3000/hairtreat-removebg-preview.png",
+            "price": 4500
+        },
+         {
+            "id": 9,
+            "name": "olive",
+            "img": "http://localhost:3000/olive.jpeg",
+            "price": 6500
+        }       
+
+    ]
+
+
+}
