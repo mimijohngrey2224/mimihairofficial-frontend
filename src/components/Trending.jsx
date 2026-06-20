@@ -210,6 +210,9 @@ function Trending() {
               <video
                 src={"http://localhost:3000/" + item.video}
                 controls
+                utoPlay
+                loop
+                muted
                 className="w-full max-w-[350px] h-auto object-contain rounded-md"
               >
                 Your browser does not support the video tag.

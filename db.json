@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Natural Color Bonestraight",
-            "video": "/vietnambonestraight.mp4",
+            "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781457443/bonestraightorders_pdzoup.mp4",
             "price": "please contact for us price",
             "featured": true,
             "trending": false
@@ -11,7 +11,7 @@
         {
             "id": 2,
             "name": "Burgundy Bonestraight",
-            "video": "/vietnamcolor.mp4",
+            "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781458855/video3_zf4ecs.mp4",
             "price": "please contact us for price",
             "featured": true,
             "trending": false
@@ -20,7 +20,7 @@
         {
             "id": 3,
             "name": "Dancing Curl",
-            "video": "/vietnam.mp4",
+            "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781459058/vietnam1_dfvaee.mp4",
             "price": "please contact us for price",
             "featured": true,
             "trending": false 
@@ -29,7 +29,7 @@
         {
             "id": 4,
             "name": "Egg Curls, Natural Color",
-            "video": "/vietnam1.mp4",
+            "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781459299/vietnam_t0s8os.mp4",
             "price": "please contact us for price",
             "featured": true,
             "trending": false
@@ -37,7 +37,7 @@
         {
             "id": 5,
             "name": "Pixie Curl",
-            "video": "/doozy1.mp4",
+            "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781460215/doozy1_qpjjpk.mp4",
             "price": "please contact us for price",
             "featured": false,
             "trending": true  
@@ -45,7 +45,7 @@
         {
             "id": 6,
             "name": "Straight Wavy Color",
-            "video": "/doozy2.mp4",
+            "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781462183/doozy3_e7yfzw.mp4",
             "price": "please contact us for price",
             "featured": false,
             "trending": true 
@@ -53,7 +53,7 @@
         {
             "id": 7,
             "name": "WAvy Color",
-            "video": "/doozy3.mp4",
+            "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781460294/doozy2_nbcqaq.mp4",
             "price": "please contact us for price",
             "featured": false,
             "trending": true 
@@ -61,7 +61,7 @@
         {
             "id": 8,
             "name": "Full Pixie",
-            "video": "/doozy4.mp4",
+            "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781462258/doozy11_qizf4t.mp4",
             "price": "please contact us for price",
             "featured": false,
             "trending": true 
@@ -147,59 +147,71 @@
 
         {
             "id": 1,
-            "name": "wig bag",
-            "img": "http://localhost:3000/wigbags3.jpeg",
+            "name": "lipgloss",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1781641071/lipgloss_soq91v.jpg",
             "price": 7500
         },
         {
             "id": 2,
-            "name": "brush",
-            "img": "http://localhost:3000/wigbrush.jpeg",
+            "name": "wigcap",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1781641378/wigcap-removebg-preview_swbeoj.png",
             "price": 3500
         },
         {
             "id": 3,
-            "name": "hair oil",
-            "img": "http://localhost:3000/hairoil.jpeg",
+            "name": "olive",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1781641160/olive_qaduxw.jpg",
             "price": 5000
         },
         {
             "id": 4,
-            "name": "nails",
-            "img": "http://localhost:3000/nails.jpeg",
+            "name": "hairteatment",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1781640785/hairtreat_bvbuv2.jpg",
             "price": 4500
         },
         {
             "id": 5,
-            "name": "eye lashes",
-            "img": "http://localhost:3000/lasches-removebg-preview.png",
+            "name": "hair brush",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1781641339/wigbrush-removebg-preview_f3s1dw.png",
             "price": 7500
         },
           {
             "id": 6,
-            "name": "lipgloss",
-            "img": "http://localhost:3000/lipgloss-removebg-preview.png",
+            "name": "wig bag",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1781641412/wigbag-removebg-preview_mixlva.png",
             "price": 1500
         },
         
          {
             "id": 7,
-            "name": "wig cap",
-            "img": "http://localhost:3000/wigcap.jpeg",
+            "name": "nails",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1781640610/nails_aldsc9.jpg",
             "price": 1000
         },
          {
             "id": 8,
-            "name": "hair treatment",
-            "img": "http://localhost:3000/hairtreat-removebg-preview.png",
+            "name": "hair oil",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1781640894/lasches_bugmha.jpg",
             "price": 4500
         },
          {
             "id": 9,
-            "name": "olive",
-            "img": "http://localhost:3000/olive.jpeg",
+            "name": "lasches",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1781640894/lasches_bugmha.jpg",
             "price": 6500
-        }       
+        }, 
+         {
+            "id": 10,
+            "name": "hawaiian",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1781640658/hawaiian_v8bksw.jpg",
+            "price": 6500
+        },   
+         {
+            "id": 11,
+            "name": "hairbrush",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1781640725/hairbrush2_xjnhxf.jpg",
+            "price": 6500
+        }     
 
     ]
 
