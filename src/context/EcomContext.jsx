@@ -1,4 +1,5 @@
 import { createContext, useState, useEffect } from "react";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
 
 const EcomContext = createContext();
 
@@ -46,7 +47,7 @@ const fetchUser = async () => {
   if (!token) return;
 
   try {
-    const res = await fetch("http://localhost:3000/api/auth/user", {
+    const res = await fetch(`${API_URL}/api/auth/user`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -109,7 +110,8 @@ const loginUser = async (token) => {
 
   const fetchFeatured = async () => {
     try {
-      const res = await fetch("http://localhost:3000/api/products/featured");
+      // const res = await fetch("http://localhost:3000/api/products/featured")
+      const res = await fetch(`${API_URL}/api/products/featured`);
       const data = await res.json();
       setFeatured(data);
     } catch (err) {
@@ -119,7 +121,8 @@ const loginUser = async (token) => {
 
   const fetchTrending = async () => {
     try {
-      const res = await fetch("http://localhost:3000/api/products/trending");
+      // const res = await fetch("http://localhost:3000/api/products/trending");
+      const res = await fetch(`${API_URL}/api/products/trending`)
       const data = await res.json();
       setTrending(data);
     } catch (err) {
@@ -129,8 +132,9 @@ const loginUser = async (token) => {
 
   const fetchWigs = async () => {
     try {
-      const res = await fetch(
-        "http://localhost:3000/api/products/category/69724ceedbc24cf84962c736"
+      const res = await fetch(`${API_URL}/api/products/category/69724ceedbc24cf84962c736`
+   // "http://localhost:3000/api/products/category/69724ceedbc24cf84962c736"
+
       );
       const data = await res.json();
       setWigs(data);
@@ -141,7 +145,8 @@ const loginUser = async (token) => {
 
   const fetchShopAll = async () => {
     try {
-      const res = await fetch("http://localhost:3000/api/products/shopall");
+      // const res = await fetch("http://localhost:3000/api/products/shopall");
+      const res = await fetch(`${API_URL}/api/products/shopall`);
       const data = await res.json();
       setShopAll(data);
     } catch (err) {
@@ -154,7 +159,7 @@ const fetchCart = async () => {
   try {
     const token = localStorage.getItem("auth-token");
 
-    const response = await fetch("http://localhost:3000/api/cart", {
+    const response = await fetch(`${API_URL}/api/cart`, {
       headers: {
         "Content-Type": "application/json",
         ...(token && { Authorization: `Bearer ${token}` }),
@@ -183,7 +188,7 @@ const addToCart = async (item) => {
   try {
     const token = localStorage.getItem("auth-token");
 
-    const response = await fetch("http://localhost:3000/api/cart/addToCart", {
+    const response = await fetch(`${API_URL}/api/cart/addToCart`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -226,7 +231,7 @@ const updateQuantity = async (productId, newQuantity) => {
       return removeItem(productId);
     }
 
-    const response = await fetch("http://localhost:3000/api/cart/update", {
+    const response = await fetch(`${API_URL}/api/cart/update`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -307,8 +312,7 @@ const removeItem = async (itemId) => {
   try {
     const token = localStorage.getItem("auth-token");
 
-    const response = await fetch(
-      `http://localhost:3000/api/cart/remove/${itemId}`,
+    const response = await fetch(`${API_URL}/api/cart/remove/${itemId}`,
       {
         method: "DELETE",
         headers: {
@@ -355,8 +359,13 @@ const removeItem = async (itemId) => {
   }
 };
   
+  // const totalAmount = () =>
+  // cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
+
   const totalAmount = () =>
-  cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  cartItems.reduce((sum, item) => {
+    return sum + Number(item.price) * Number(item.quantity);
+  }, 0);
 
   
 // 15 april 2026
@@ -399,7 +408,7 @@ const removeItem = async (itemId) => {
 
   const handleCheckout = async (amount, currency) => {
   try {
-    const response = await fetch("http://localhost:3000/api/payment/initiate", {
+    const response = await fetch(`${API_URL}/api/payment/initiate`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

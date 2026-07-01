@@ -230,14 +230,14 @@ function Wigs() {
         <div className="flex gap-6 flex-wrap justify-center">
           {wigs?.map((item, index) => {
             // ❌ Skip videos in image grid
-            if (item.img?.endsWith(".mp4")) return null;
+            // if (item.img?.endsWith(".mp4")) return null;
 
             // ✅ Normalize Windows paths
-            const normalizedImg = item.img
-              ?.replace(/\\/g, "/")
-              ?.replace(/^uploads\//, "");
+            // const normalizedImg = item.img
+            //   ?.replace(/\\/g, "/")
+            //   ?.replace(/^uploads\//, "");
 
-            const imageUrl = `http://localhost:3000/uploads/${normalizedImg}`;
+            // const imageUrl = `http://localhost:3000/uploads/${normalizedImg}`;
 
             return (
               <Card
@@ -250,10 +250,12 @@ function Wigs() {
 
                 <Link to={`/detail/${item._id}`}>
                   <img
-                    src={imageUrl}
+                    // src={imageUrl}
+                     src={item.img}
                     alt={item.name}
                     className="w-full max-w-[300px] h-[300px] object-cover rounded-md"
                   />
+    
                 </Link>
 
                 <p className="mt-3 font-bold text-pink-600 text-center">

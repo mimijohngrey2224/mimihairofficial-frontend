@@ -72,73 +72,73 @@
         {
             "id": 1,
             "name": "pixie",
-            "img": "/logowavy.jpg",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1782920044/pixieSDD_tavrzo.jpg",
             "price": 50000
         },
         {
             "id": 2,
             "name": "waveB",
-            "img": "/waveB.jpg",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1782919647/waveB_piuvmn.jpg",
             "price": 60000
         },
         {
             "id": 3,
             "name": "beautyhair",
-            "img": "/wavyNn.jpg",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1782919752/wavyN_nzjoia.jpg",
             "price": 50000
         },
         {
             "id": 4,
             "name": "naturalWavy",
-            "img": "/wavyN.jpg",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1782919531/pic6_htbqhk.jpg",
             "price": 66000
         },
         {
             "id": 5,
             "name": "PixeiCurly",
-            "img": "/pixie culy.jpg",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1782919363/pixeee_uogavz.jpg",
             "price": 80000
         },
         {
             "id": 6,
             "name": "Double",
-            "img": "/longwave.jpg",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1782919465/longwave_olnuq5.jpg",
             "price": 60000
         },
         {
             "id": 7,
             "name": "Super",
-            "img": "/wavycolor3.jpg",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1782919701/wavycolor1_kzqvke.jpg",
             "price": 50000
         },
         {
             "id": 8,
             "name": "Superwig(SDD)",
-            "img": "/wavenew.jpg",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1782920088/wavyNn_mazuk3.jpg",
             "price": 80000
         },
         {
             "id": 9,
             "name": "blondewavy(SDD)",
-            "img": "/wavycolor1.jpg",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1782919564/pixx11_g8r2pb.jpg",
             "price": 90000
         },
         {
             "id": 10,
             "name": "Pixie Curl(SDD)",
-            "img": "/pixieSDD.jpg",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1782919497/pixie_culy_dx4ryn.jpg",
             "price": 60000
         },
         {
             "id": 11,
             "name": "italain pixie(SDD)",
-            "img": "/pixeee.jpg",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1782919931/brazilainwave_yjd5i9.jpg",
             "price": 70000
         },
         {
             "id": 12,
             "name": "italain wavy blonde(SDD)",
-            "img": "/wavycolor2.jpg",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1782919878/logowavy_tt8v6j.jpg",
             "price": 80000
         }
     ],
@@ -148,7 +148,7 @@
         {
             "id": 1,
             "name": "lipgloss",
-            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1781641071/lipgloss_soq91v.jpg",
+            "img": "https://res.cloudinary.com/dymufbcsw/image/upload/v1782920044/pixieSDD_tavrzo.jpg",
             "price": 7500
         },
         {
