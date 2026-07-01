@@ -92,14 +92,23 @@ function Featured() {
               </span>
 
               {/* Video */}
-              <video
+              {/* <video
                 src={"http://localhost:3000/" + item?.video}
+                src={item.video}
                 autoPlay
                 loop
                 muted
                 // className="w-[350px] h-[200px] object-cover rounded-md"
                 className="w-full max-w-[350px] h-auto object-contain rounded-md"
 
+              /> */}
+
+              <video
+                src={item.video}
+                autoPlay
+                 loop
+                muted
+                className="w-full max-w-[350px] h-auto object-contain rounded-md"
               />
 
               {/* Info */}

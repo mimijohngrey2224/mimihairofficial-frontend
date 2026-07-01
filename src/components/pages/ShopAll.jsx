@@ -167,7 +167,7 @@ import { Link } from "react-router-dom";
 function ShopAll() {
   const { shopAll, addToCart } = useContext(EcomContext);
 
-   const IMAGE_BASE_URL = "http://localhost:3000";
+  //  const IMAGE_BASE_URL = "http://localhost:3000"
 
   return (
     <section className="relative my-10 mx-6 rounded-xl overflow-hidden">
@@ -217,9 +217,10 @@ function ShopAll() {
                   <img
                     // src={item.img}
                     // alt={item.name}
-                      src={`${IMAGE_BASE_URL}/${item.img}`}
-                      alt={item.name}
-
+                      // src={`${IMAGE_BASE_URL}/${item.img}`}
+                      
+                    src={item.img}
+                    alt={item.name}
                     className="w-full max-w-[260px] h-[260px] object-cover rounded-md"
                   />
                 </Link>

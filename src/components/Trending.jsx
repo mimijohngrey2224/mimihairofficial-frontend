@@ -208,9 +208,10 @@ function Trending() {
 
               {/* Video */}
               <video
-                src={"http://localhost:3000/" + item.video}
+                // src={"http://localhost:3000/" + item.video}
+                src={item.video}
                 controls
-                utoPlay
+                autoPlay
                 loop
                 muted
                 className="w-full max-w-[350px] h-auto object-contain rounded-md"
