@@ -4,7 +4,7 @@
             "id": 1,
             "name": "Natural Color Bonestraight",
             "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781457443/bonestraightorders_pdzoup.mp4",
-            "price": "please contact for us price",
+            "price": 0,
             "featured": true,
             "trending": false
         },
@@ -12,7 +12,7 @@
             "id": 2,
             "name": "Burgundy Bonestraight",
             "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781458855/video3_zf4ecs.mp4",
-            "price": "please contact us for price",
+            "price": 0,
             "featured": true,
             "trending": false
             
@@ -21,7 +21,7 @@
             "id": 3,
             "name": "Dancing Curl",
             "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781459058/vietnam1_dfvaee.mp4",
-            "price": "please contact us for price",
+            "price": 0,
             "featured": true,
             "trending": false 
     
@@ -30,7 +30,7 @@
             "id": 4,
             "name": "Egg Curls, Natural Color",
             "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781459299/vietnam_t0s8os.mp4",
-            "price": "please contact us for price",
+            "price": 0,
             "featured": true,
             "trending": false
         },
@@ -38,7 +38,7 @@
             "id": 5,
             "name": "Pixie Curl",
             "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781460215/doozy1_qpjjpk.mp4",
-            "price": "please contact us for price",
+            "price": 0,
             "featured": false,
             "trending": true  
         },
@@ -46,7 +46,7 @@
             "id": 6,
             "name": "Straight Wavy Color",
             "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781462183/doozy3_e7yfzw.mp4",
-            "price": "please contact us for price",
+            "price": 0,
             "featured": false,
             "trending": true 
         },
@@ -54,7 +54,7 @@
             "id": 7,
             "name": "WAvy Color",
             "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781460294/doozy2_nbcqaq.mp4",
-            "price": "please contact us for price",
+            "price": 0,
             "featured": false,
             "trending": true 
         },
@@ -62,7 +62,7 @@
             "id": 8,
             "name": "Full Pixie",
             "video": "https://res.cloudinary.com/dymufbcsw/video/upload/v1781462258/doozy11_qizf4t.mp4",
-            "price": "please contact us for price",
+            "price": 0,
             "featured": false,
             "trending": true 
         }
