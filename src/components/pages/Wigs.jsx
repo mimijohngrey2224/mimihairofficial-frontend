@@ -25,6 +25,9 @@ function Wigs() {
         <div className="flex gap-6 flex-wrap justify-center">
           {wigs?.map((item, index) => {
 
+              // Skip products that don't have an image
+              if (!item.img) return null;
+
             return (
               <Card
                 key={`${item._id}-${index}`}
@@ -67,6 +70,4 @@ function Wigs() {
 }
 
 export default Wigs;
-
-
 
