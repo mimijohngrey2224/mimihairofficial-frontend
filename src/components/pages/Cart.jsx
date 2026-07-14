@@ -8,11 +8,6 @@ import { Link } from "react-router-dom";
 function Cart() {
   const { cartItems, updateQuantity, removeItem, totalAmount } = useContext(EcomContext);
 
-  // Update the total dynamically based on cartItems
-  // const calculateTotal = () => {
-  //   return cartItems.reduce((total, item) => total + item.amount, 0);
-  // };
-
   // Function to handle quantity change from input field
   const handleQuantityChange = (id, value) => {
     // Ensure the quantity is at least 1
@@ -72,7 +67,7 @@ function Cart() {
             <td className="py-3 px-4 text-center">{item.name}</td>
             <td className="py-3 px-4">
               <img
-                src={`http://localhost:3000/${item.img}`} // Replace with actual image URL
+                src={`https://mimihairofficial-api.onrender.com/${item.img}`} // Replace with actual image URL
                 alt="Wig"
                 className="w-12 h-12 object-cover rounded-full mx-auto"
               />

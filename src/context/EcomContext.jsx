@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect } from "react";
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
+const API_URL = import.meta.env.VITE_API_URL || "https://mimihairofficial-api.onrender.com";
 
 const EcomContext = createContext();
 
@@ -12,26 +12,6 @@ export const EcomProvider = ({ children }) => {
   const [user, setUser] = useState(null);
 
   const [alert, setAlert] = useState(null);
-
-// const showAndHide = (type, message) => {
-//   setAlert({ type, message });
-
-//   setTimeout(() => {
-//     setAlert(null);
-//   }, 3000);
-// };
-
-// const showAndHide = (type, message) => {
-//   setAlert({ type, message, visible: true });
-
-//   setTimeout(() => {
-//     // fade out first
-//     setAlert(prev => ({ ...prev, visible: false }));
-
-//     // remove after fade out animation
-//     setTimeout(() => setAlert(null), 500);
-//   }, 3000); // 3 seconds visible
-// };
 
 const showAndHide = (type, message) => {
   setAlert({ type, message }); // no visible flag
@@ -266,47 +246,6 @@ const updateQuantity = async (productId, newQuantity) => {
   }
 };
 
-//working without alert
-// const removeItem = async (itemId) => {
-//   try {
-//     const token = localStorage.getItem("auth-token");
-
-//     const response = await fetch(
-//       `http://localhost:3000/api/cart/remove/${itemId}`,
-//       {
-//         method: "DELETE",
-//         headers: {
-//           "Content-Type": "application/json",
-//           ...(token && { Authorization: `Bearer ${token}` }),
-//         },
-//         credentials: "include",
-//       }
-//     );
-
-//     const data = await response.json();
-
-//     if (!response.ok) {
-//       console.log(data.error);
-//       return;
-//     }
-
-//     // ✅ FIXED FORMAT
-//     setCartItems(
-//       data.products.map((item) => ({
-//         _id: item.product._id,
-//         name: item.product.name,
-//         price: item.product.price,
-//         img: item.product.img,
-//         quantity: item.quantity,
-//       }))
-//     );
-
-//   } catch (error) {
-//     console.log("Remove item error:", error);
-//   }
-// };
-
-
 //working with alert
 const removeItem = async (itemId) => {
   try {
@@ -358,54 +297,12 @@ const removeItem = async (itemId) => {
     showAndHide("error", "Something went wrong");
   }
 };
-  
-  // const totalAmount = () =>
-  // cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
   const totalAmount = () =>
   cartItems.reduce((sum, item) => {
     return sum + Number(item.price) * Number(item.quantity);
   }, 0);
-
   
-// 15 april 2026
-  // const totalAmount = () =>
-  //    console.log(cartItems);
-  // cartItems.reduce((sum, item) => {
-  //   const price = Number(item.price);
-  //   const quantity = Number(item.quantity);
-  //   return sum + price * quantity;
-  // }, 0);
-
- 
-
-  // const handleCheckout = async(amount, currency)=>{
-  //   const data = await response.json();
-  //   console.log("FLW RESPONSE:", data);
-  //   try {
-  //     const response = await fetch("http://localhost:3000/api/payment/initiate", {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //         // "auth-token": `${localStorage.getItem("auth-token")}`,
-  //          Authorization: `Bearer ${localStorage.getItem("auth-token")}`,
-  //       },
-  //       body: JSON.stringify({amount, currency})
-  //     })
-
-  //     const data = await response.json()
-  //     if (response.ok) {
-  //       // window.location.href = <data value="" className="link"></data>
-  //       window.location.href = data.link;
-  //     }else{
-  //       console.error(data.msg || "Failed to Initiate Payment");
-  //     }
-  //   } catch (error) {
-  //     console.error(error);
-  //   }
-  // }
-  
-
   const handleCheckout = async (amount, currency) => {
   try {
     const response = await fetch(`${API_URL}/api/payment/initiate`, {

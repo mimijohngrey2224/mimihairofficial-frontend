@@ -1,53 +1,4 @@
 
-// import { useNavigate } from 'react-router-dom';
-// import { useContext } from 'react';
-// import EcomContext from '../context/EcomContext';
-// import Card from './shared/Card';
-
-// function Featured() {
-//   const { featured } = useContext(EcomContext);
-//   const navigate = useNavigate(); // Navigation hook
-
-//   // Function to handle the "Order Now" button click
-//   const handleOrderNowClick = () => {
-//     navigate('/wigs'); // Redirects to the Wigs page
-//   };
-
-//   return (
-//     <div className='my-[20px] mx-[30px]'>
-//       <h1 className='mb-[10px] text-pink-600 font-bold text-2xl'>Featured Products</h1>
-//       <div className='flex gap-2 flex-wrap'>
-//         {featured.map((item) => (
-//           <Card key={item.id} className="flex flex-col items-center">
-//             <button className='bg-pink-600 font-bold text-white mb-2 border-2 border-pink-500 rounded w-full p-[10px]'>
-//               100% Virgin Hair
-//             </button>
-            
-//             <video src={item?.video} autoPlay={true} width="350px" height="200px">
-//               Your browser does not support the video tag.
-//             </video>
-            
-//             <p className='font-bold'>{item.name}</p>
-//             <p>{item.price}</p>
-            
-//             {/* Order Now button */}
-//             <button
-//               className='bg-pink-600 text-white p-[10px] rounded mt-[10px]'
-//               onClick={handleOrderNowClick} // Call navigate when clicked
-//             >
-//               Order Now
-//             </button>
-//           </Card>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Featured;
-
-
-
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import EcomContext from "../context/EcomContext";
@@ -90,18 +41,6 @@ function Featured() {
               <span className="mb-3 px-4 py-1 text-sm font-bold text-emerald-900 bg-emerald-200 rounded-full">
                 100% Virgin Hair
               </span>
-
-              {/* Video */}
-              {/* <video
-                src={"http://localhost:3000/" + item?.video}
-                src={item.video}
-                autoPlay
-                loop
-                muted
-                // className="w-[350px] h-[200px] object-cover rounded-md"
-                className="w-full max-w-[350px] h-auto object-contain rounded-md"
-
-              /> */}
 
               <video
                 src={item.video}
