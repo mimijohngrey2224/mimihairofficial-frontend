@@ -74,8 +74,14 @@ function Detail() {
 
       {/* IMAGE */}
       <div className="flex justify-center items-center w-full lg:w-[50%]">
-        <img
+        {/* <img
           src={`https://mimihairofficial-api.onrender.com/${hairitem.img}`}
+          alt={hairitem.name || "product image"}
+          className="h-[400px] w-[400px] object-cover rounded-lg shadow-md"
+        /> */}
+
+        <img
+          src={hairitem.img}
           alt={hairitem.name || "product image"}
           className="h-[400px] w-[400px] object-cover rounded-lg shadow-md"
         />

@@ -66,9 +66,15 @@ function Cart() {
             </td>
             <td className="py-3 px-4 text-center">{item.name}</td>
             <td className="py-3 px-4">
-              <img
+              {/* <img
                 src={`https://mimihairofficial-api.onrender.com/${item.img}`} // Replace with actual image URL
                 alt="Wig"
+                className="w-12 h-12 object-cover rounded-full mx-auto"
+              /> */}
+
+              <img
+                src={item.img}
+                alt={item.name}
                 className="w-12 h-12 object-cover rounded-full mx-auto"
               />
               {/* <img
@@ -123,6 +129,5 @@ function Cart() {
 }
 
 export default Cart;
-
 
 
