@@ -77,7 +77,7 @@ function Footer() {
             </a>
 
             <a
-              href="https://wa.me/+2348038901148"
+              href="https://wa.me/2348038901148"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl hover:text-white transition-transform hover:scale-110"
@@ -87,7 +87,7 @@ function Footer() {
           </div>
         </div>
       </div>
-
+      
       {/* Divider */}
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm text-gray-300">
         © {new Date().getFullYear()} Mimihairofficial. All rights reserved.
