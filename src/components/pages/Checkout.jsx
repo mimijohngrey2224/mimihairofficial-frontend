@@ -77,7 +77,8 @@ function Checkout() {
                   <td className="py-3 px-4">{item.name}</td>
                   <td className="py-3 px-4 text-center">
                     <img
-                      src={`https://mimihairofficial-api.onrender.com/${item.img}`}
+                      // src={`https://mimihairofficial-api.onrender.com/${item.img}`}
+                       src={hairitem.img}
                       alt={item.name}
                       className="w-12 h-12 object-cover rounded-full mx-auto"
                     />

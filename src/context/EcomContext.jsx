@@ -203,6 +203,7 @@ const addToCart = async (item) => {
   }
 };
 
+
 const updateQuantity = async (productId, newQuantity) => {
   try {
     const token = localStorage.getItem("auth-token");
