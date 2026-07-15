@@ -90,7 +90,7 @@ function Footer() {
 
       {/* Divider */}
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm text-gray-300">
-        © {new Date().getFullYear()} MimiHair. All rights reserved.
+        © {new Date().getFullYear()} Mimihairoffical. All rights reserved.
       </div>
     </footer>
   );
