@@ -7,7 +7,7 @@ function Contact() {
   // ✅ ALL DATA GOES HERE (ABOVE RETURN)
   const CONTACT = {
     email: "support@mimihairofficial@gmail.com",
-    whatsapp: "https://wa.me/2348012345678",
+    whatsapp: "https://wa.me/+2348038901148",
     facebook: "https://www.facebook.com/share/17n9sZmhLS/?mibextid=wwXIfr",
     instagram: "https://instagram.com/mimihairofficial",
     tiktok: "https://www.tiktok.com/@mimihair036",
